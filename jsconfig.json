@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "baseUrl": "./",
+      "paths": {
+        "components/*": ["src/components/*"],
+        "containers/*": ["src/containers/*"],
+        "layouts/*": ["src/layouts/*"],
+        "pages/*": ["src/pages/*"],
+        "utils/*": ["src/utils/*"],
+      }
+  }
+}
